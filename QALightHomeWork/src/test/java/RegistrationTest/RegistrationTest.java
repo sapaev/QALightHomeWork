@@ -33,10 +33,10 @@ public class RegistrationTest {
 
 
         WebElement userName=webDriver.findElement(By.xpath("//input[@name='username' and @id='username-register']"));
-        userName.sendKeys("Test2107181215");
+        userName.sendKeys("Test2107181216");
 
         WebElement email=webDriver.findElement(By.xpath("//input[@name='email' and @id='email-register']"));
-        email.sendKeys("test2101202315@gmail.com");
+        email.sendKeys("test2101202316@gmail.com");
 
         WebElement password=webDriver.findElement(By.xpath("//input[@name='password' and @id='password-register']"));
         password.sendKeys("Test12345678");
