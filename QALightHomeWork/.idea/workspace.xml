@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19decd3f-055f-4d55-85e0-182dd9c7d5d7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RegistrationTest/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RegistrationTest/RegistrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/RegistrationTest/RegistrationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RegistrationTest/RegistrationTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +46,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.RegistrationTest">
+  <component name="RunManager" selected="JUnit.RegistrationTest.emptyField">
     <configuration name="LoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QALightHomeWork" />
       <extension name="coverage">
@@ -94,6 +93,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RegistrationTest.emptyField" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QALightHomeWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RegistrationTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="RegistrationTest" />
+      <option name="MAIN_CLASS_NAME" value="RegistrationTest.RegistrationTest" />
+      <option name="METHOD_NAME" value="emptyField" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RegistrationTest.validRegistration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QALightHomeWork" />
       <extension name="coverage">
@@ -112,6 +127,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RegistrationTest.emptyField" />
         <item itemvalue="JUnit.RegistrationTest" />
         <item itemvalue="JUnit.RegistrationTest.validRegistration" />
         <item itemvalue="JUnit.LoginTest" />
@@ -128,6 +144,18 @@
       <option name="presentableId" value="Default" />
       <updated>1674207054345</updated>
     </task>
+    <task id="LOCAL-00001" summary="update">
+      <created>1674338927303</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674338927303</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>

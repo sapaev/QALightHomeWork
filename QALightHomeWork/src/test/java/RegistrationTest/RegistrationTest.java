@@ -184,7 +184,39 @@ public class RegistrationTest {
     }
 
 
+    @Test
+    public void emptyField() throws InterruptedException {
 
+
+
+        WebElement button=webDriver.findElement(By.xpath(".//button[@type='submit']"));
+        button.submit();
+
+
+        Thread.sleep(3000);
+
+
+
+        String errorUsername=webDriver.findElement(By.xpath("//div[@class='alert alert-danger small liveValidateMessage liveValidateMessage--visible' and text()='Username must be at least 3 characters.']"))
+                .getText();
+
+        String errorEmail=webDriver.findElement(By.xpath("//div[@class='alert alert-danger small liveValidateMessage liveValidateMessage--visible' and text()='You must provide a valid email address.']"))
+                .getText();
+
+        String errorPassword=webDriver.findElement(By.xpath("//div[@class='alert alert-danger small liveValidateMessage liveValidateMessage--visible' and text()='Password must be at least 12 characters.']"))
+                .getText();
+
+
+
+        Assert.assertEquals("Test failed","Username must be at least 3 characters.",errorUsername);
+
+        Assert.assertEquals("Test failed","You must provide a valid email address.",errorEmail);
+
+        Assert.assertEquals("Test failed","Password must be at least 12 characters.",errorPassword);
+
+
+        Assert.assertTrue(button.isDisplayed());
+    }
 
 
 
