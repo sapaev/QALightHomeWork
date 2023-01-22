@@ -33,10 +33,10 @@ public class RegistrationTest {
 
 
         WebElement userName=webDriver.findElement(By.xpath("//input[@name='username' and @id='username-register']"));
-        userName.sendKeys("Test2107181216");
+        userName.sendKeys("Test2107181217");
 
         WebElement email=webDriver.findElement(By.xpath("//input[@name='email' and @id='email-register']"));
-        email.sendKeys("test2101202316@gmail.com");
+        email.sendKeys("test2101202317@gmail.com");
 
         WebElement password=webDriver.findElement(By.xpath("//input[@name='password' and @id='password-register']"));
         password.sendKeys("Test12345678");
@@ -147,7 +147,7 @@ public class RegistrationTest {
 
 
 
-        Assert.assertEquals("This username is already taken.","This username is already taken.",error);
+        Assert.assertEquals("This username is already taken","This username is already taken.",error);
         //Assert.assertTrue(button.isDisplayed());
 
     }
